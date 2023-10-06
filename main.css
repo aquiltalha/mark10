@@ -1,0 +1,33 @@
+* {
+    
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    width:50vw;
+    margin:auto;
+    text-align:center;
+       
+}
+#cash-given,#bill-amount{
+   padding:0.5rem;
+   background-color:#fbbf24;
+   color:#dc2626;
+}
+button{
+   background-color:#6ee7b7;
+}
+button:hover{
+    color:#ef4444;
+    background-color:purple;
+}
+table, th, td {
+    border: 1px solid;
+    background-color:#fbbf24;
+
+}
+textarea{
+    background-color:#fbbf24;
+    text-align:center;
+    color:#dc2626;
+}
