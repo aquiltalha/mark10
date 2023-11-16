@@ -10,7 +10,7 @@
     hideMessage();
     if(billAmount.value>0){
        
-        if(cashGiven.value >= billAmount.value){
+        if(Number(cashGiven.value) >= Number(billAmount.value)){
            const amountToBeReturned=cashGiven.value-billAmount.value;
            calculateChange(amountToBeReturned);
         }
